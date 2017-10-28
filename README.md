@@ -206,6 +206,26 @@ $ npm version major # for deprecation
 ## Thanks a lot!
 Thanks for checking out the project. We appreciate it! •ᴗ•
 
+### Attributions
+Thanks to all these awesome npm packages, that help microplan.
+
+```json
+"devDependencies": {
+  "autopublish": "0.0.7",
+  "standard": "^9.0.2"
+},
+"dependencies": {
+  "async": "^2.1.2",
+  "commander": "^2.9.0",
+  "github-create-issue": "^2.0.0",
+  "gitlab-create-issue": "^1.0.1",
+  "home-dir": "^1.0.0",
+  "js-yaml": "^3.7.0",
+  "ora": "^0.4.0",
+  "underscore": "^1.8.3"
+}
+```
+
 ### Security
 Please report any security vulnerabilities of this project to [keybase.io/scriptnull](https://keybase.io/scriptnull)
 
