@@ -168,41 +168,22 @@ $ microplan publish -h
 ![image](https://cloud.githubusercontent.com/assets/4211715/20642197/7b463f84-b42e-11e6-88b6-06959a59d8f0.png)
 
 ### Input Formats
-The configuration file can be written in various formats. We plan to add TOML soon.
+The configuration file can be written in various formats.
 
 | Format | Status |
 |--------|--------|
 | YAML   | AVAILABLE |
 | JSON   | AVAILABLE |
-| TOML   | PLANNED   |
 
 ### Contributors
 Authored and maintained by [@scriptnull](https://github.com/scriptnull) and [@argonlaser](https://github.com/argonlaser) with help from [contributors](http://github.com/microplan-xyz/microplan/contributors).
 
 ### Attributions
-Thanks to the awesome repositories without which the project would not have been possible.
-
-```js
-"devDependencies": {
-    "autopublish": "0.0.7",
-    "standard": "^9.0.2"
-  },
-  "dependencies": {
-    "async": "^2.1.2",
-    "commander": "^2.9.0",
-    "github-create-issue": "^2.0.0",
-    "gitlab-create-issue": "^1.0.1",
-    "home-dir": "^1.0.0",
-    "js-yaml": "^3.7.0",
-    "ora": "^0.4.0",
-    "underscore": "^1.8.3"
-  }
-
-```
+Thanks to [these awesome npm packages](https://github.com/microplan-xyz/microplan/blob/master/package.json#L28-L42) without which the project would not have been possible.
 
 ### Security
 Please report any security vulnerabilities of this project to [keybase.io/scriptnull](https://keybase.io/scriptnull)
 
 ```bash
-curl https://keybase.io/scriptnull/pgp_keys.asc | gpg --import
+$ curl https://keybase.io/scriptnull/pgp_keys.asc | gpg --import
 ```
